@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+$font1: 'Work Sans', cursive;
+
+$text-color1: #7b53a8;
+$text-color2: #f7f0ff;
+
+$border-radius: 20px;
+$min-height: 95vp;
+
+body{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font1;
+    color: $text-color1;
+    background-color: rgb(36, 35, 35);
+}
+
+button{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: $text-color2;
+}
+
+.home, .cv, .contact, .projects{
+    display: flex;
+
+    // Si la page est en dessous de 850px, le display change
+    @media screen and (max-width: 850px) {
+        display: block !important;
+    }
+}
+
+.homeContent, .cvContent, .contactContent, .projectsContent{
+    margin-left: .4rem;
+
+    // Si la page est en dessous de 850px, le display change
+    @media screen and (max-width: 850px) {
+        margin-left: 0 !important;
+    }
+}
