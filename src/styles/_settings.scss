@@ -5,14 +5,15 @@ $font1: 'Work Sans', cursive;
 $text-color1: #7b53a8;
 $text-color2: #f7f0ff;
 
-$border-radius: 20px;
+$border-radius: 10px;
 $min-height: 95vp;
 
 body{
     max-width: 1200px;
+    //Pour aligner les divs verticalement
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     font-family: $font1;
     color: $text-color1;
     background-color: rgb(36, 35, 35);
