@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
 
-$font1: 'Work Sans', cursive;
+$font1: 'Work Sans', sans-serif;
+$font-small1: 'Work Sans', sans-serif;
 
 $text-color1: #7b53a8;
 $text-color2: #f7f0ff;
+$border-color: #535353;
 
-$border-radius: 10px;
-$min-height: 95vp;
+$border-radius: 5px;
+$min-height: 95vh;
 
 body{
     max-width: 1200px;
@@ -41,6 +43,14 @@ a{
 
 .homeContent, .cvContent, .contactContent, .projectsContent{
     margin-left: .4rem;
+
+    box-shadow: 0 0 0 1px $border-color;
+    padding: 10px;
+    background: rgb(21, 15, 66);
+    height: 100%;
+    min-height: $min-height;
+    width: 170vh;
+    border-radius: $border-radius;
 
     // Si la page est en dessous de 850px, le display change
     @media screen and (max-width: 850px) {

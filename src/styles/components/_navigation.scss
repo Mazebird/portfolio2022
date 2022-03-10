@@ -1,10 +1,70 @@
-.sidebar{
-    background-color: rgb(21, 15, 66);
+.sidebar {
+    box-shadow: 0 0 0 1px $border-color;
+    padding: 10px;
+    background: rgb(21, 15, 66);
     height: 100%;
     min-height: $min-height;
     width: 264px;
     border-radius: $border-radius;
-    img{
-        width: fit-content;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 1fr 108px;
+    grid-template-areas:
+        "1"
+        "2"
+        "3";
+
+    .id {
+        grid-area: 1;
+        text-align: center;
+        user-select: none;
+        position: relative;
+        .idContent {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+
+            img {
+                border-radius: $border-radius;
+                box-shadow: 0 0 0 1px $border-color;
+                width: 200px;
+            }
+        }
+    }
+
+    .navigation {
+        grid-area: 2;
+        li {
+            // margin: 10px;
+            padding: 10px;
+            &:hover {
+                transform: translate(3px, 3px);
+            }
+        }
+
+        i {
+            position: absolute;
+            transform: translateY(3px);
+            transition: 0.2s ease;
+        }
+
+        span {
+            margin-left: 2.7rem;
+        }
+    }
+
+    .sideNetwork {
+        grid-area: 3;
+        display: grid;
+            justify-content: center;
+            align-items: center;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+        }
     }
 }

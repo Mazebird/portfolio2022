@@ -7,7 +7,7 @@ const Navigation = () => {
             <div className="id">
                 <div className="idContent">
                     <img src="./media/me.png" alt="" />
-                    <h1>Portfolio</h1>
+                    <h1>Anthony Fernandez</h1>
                 </div>
             </div>
             <div className='navigation'>
@@ -41,10 +41,10 @@ const Navigation = () => {
                 <h2>Aussi sur...</h2>
                 <ul>
                     <li>
-                        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-linkedin' /></a>
+                        <a href="https://www.linkedin.com/in/anthony-fernandez-dev/" target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-linkedin' /></a>
                     </li>
                     <li>
-                        <a href="http://www.github.com" target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-github' /></a>
+                        <a href="http://www.github.com/Arckreed" target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-github' /></a>
                     </li>
                 </ul>
             </div>
