@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
+        
         <div className='sidebar'>
             <div className="id">
                 <div className="idContent">
@@ -52,6 +53,7 @@ const Navigation = () => {
                 <p>Anthony Fernandez - 2022</p>
             </div>
         </div>
+        
     );
 };
 
