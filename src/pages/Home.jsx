@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Topbar from '../components/Topbar';
 
 const Home = () => {
     return (
         <div className='home'>
-            <Navigation />
+            <Topbar/>
             <div className="homeContent">
                 <p>Hello home</p>
             </div>

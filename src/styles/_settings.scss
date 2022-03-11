@@ -8,32 +8,23 @@ $text-color2: #f7f0ff;
 $border-color: #535353;
 
 $border-radius: 5px;
-$min-height: 95vh;
+$min-height: 75vh;
 
 body{
-    max-width: 1200px;
-    //Pour aligner les divs verticalement
-    display: flex;
-    // justify-content: center;
+    // max-width: 1200px;
+    // //Pour aligner les divs verticalement
+    // display: flex;
+    // justify-content: space-between;
     // align-items: center;
     font-family: $font1;
     color: $text-color1;
     background-color: rgb(36, 35, 35);
 }
 
-button{
-    cursor: pointer;
-}
-li{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color: $text-color2;
-}
+
 
 .home, .cv, .contact, .projects{
-    display: flex;
+    // display: flex;
 
     // Si la page est en dessous de 850px, le display change
     @media screen and (max-width: 850px) {
@@ -42,16 +33,11 @@ a{
 }
 
 .homeContent, .cvContent, .contactContent, .projectsContent{
-    margin-left: .4rem;
-
     box-shadow: 0 0 0 1px $border-color;
-    padding: 10px;
     background: rgb(21, 15, 66);
     height: 100%;
     min-height: $min-height;
-    width: 170vh;
-    border-radius: $border-radius;
-
+    
     // Si la page est en dessous de 850px, le display change
     @media screen and (max-width: 850px) {
         margin-left: 0 !important;

@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Topbar from '../components/Topbar';
 
 const Contact = () => {
     return (
         <div className='contact'>
-            <Navigation />
+            <Topbar />
             <div className="contactContent">
                 <p>Me contacter</p>
             </div>

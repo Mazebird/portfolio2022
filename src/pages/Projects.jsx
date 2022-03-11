@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Topbar from '../components/Topbar';
 
 const Projects = () => {
     return (
         <div className='projects'>
-            <Navigation />
+            <Topbar />
             <div className="projectsContent">
                 <p>Ajouter quelques Projets en format Card (BlackJack, Morpion, Messenger, ToDoList...</p>
             </div>

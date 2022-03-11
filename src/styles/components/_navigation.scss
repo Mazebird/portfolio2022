@@ -9,7 +9,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 350px 1fr 108px;
+    grid-template-rows: 300px 1fr 108px;
     grid-template-areas:
         "1"
         "2"
@@ -22,10 +22,9 @@
         position: relative;
         .idContent {
             position: absolute;
-            bottom: 0;
+            
             left: 50%;
             transform: translateX(-50%);
-            width: 100%;
 
             img {
                 border-radius: $border-radius;
@@ -38,7 +37,6 @@
     .navigation {
         grid-area: 2;
         li {
-            // margin: 10px;
             padding: 10px;
             &:hover {
                 transform: translate(3px, 3px);

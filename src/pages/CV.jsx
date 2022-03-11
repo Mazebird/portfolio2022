@@ -1,10 +1,10 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Topbar from '../components/Topbar';
 
 const CV = () => {
     return (
         <div className='cv'>
-            <Navigation />
+            <Topbar />
             <div className="cvContent">
                 <p>Ajouter les éléments du cv : Formations, Compétences, etc (les coordonnées devraient aller dans contact)</p>
             </div>
