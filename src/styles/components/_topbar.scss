@@ -1,8 +1,12 @@
 .topbar {
+    position: fixed;
+    z-index: 1;
+    width: 99%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 0 1px $border-color;
+    background: rgb(21, 15, 66);
 
     .id {
         position: relative;
@@ -20,15 +24,20 @@
             }
         }
         h1 {
-            margin-left: 100px;
+            position: inherit;
+            left: 100px;
+            @media screen and (max-width: 1000px) {
+                display: none !important;
+            }
         }
     }
 
     .navigation {
+        
         .active {
             color: rgb(73, 69, 69);
         }
-        
+
         ul {
             display: flex;
         }
@@ -47,5 +56,15 @@
             text-decoration: none;
             color: $text-color2;
         }
+    }
+
+    // Si la page est en dessous de 850px, le display change
+    
+    @media screen and (max-width: 1000px) {
+        width: 98% !important;
+    }
+
+    @media screen and (max-width: 650px) {
+        display: none !important;
     }
 }
