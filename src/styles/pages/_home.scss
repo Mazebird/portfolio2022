@@ -1,0 +1,30 @@
+.home{
+    .downloadCV{
+        text-decoration: none;
+        color: black;
+        box-shadow: 0 0 0 1px $border-color;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: rgb(211, 211, 211);
+    }
+    .content{
+        .presentation{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            box-shadow: 0 0 0 1px $border-color;
+        }
+
+        // padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column  !important;
+        }
+    }
+}

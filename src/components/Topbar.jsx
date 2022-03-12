@@ -9,7 +9,7 @@ const Topbar = (prop) => {
             <div className='topbar'>
                 <div className="id">
                     <div className="idContent">
-                        <img src="./media/me.png" alt="" />
+                        <img src="/media/me.png" alt="" />
 
                     </div>
                     <h1>Anthony Fernandez</h1>
