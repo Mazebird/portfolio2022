@@ -1,9 +1,13 @@
 import React from 'react';
+import Topbar from '../components/Topbar';
 
 const NotFound = () => {
     return (
-        <div>
-            <p>Y'a rien !</p>
+        <div className='404'>
+            <Topbar title="Menu"/>
+            <div className="content">
+                <p>Erreur 404</p>
+            </div>
         </div>
     );
 };

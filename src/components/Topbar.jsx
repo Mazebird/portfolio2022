@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
-const Topbar = () => {
+const Topbar = (prop) => {
 
     const [isActive,setActive] = useState(false);
 
@@ -46,7 +46,7 @@ const Topbar = () => {
             </div>
             <div className="topbar-min">
                 <div className="topbar-min-title">
-                    <h2>Menu</h2>
+                    <h2>{prop.title}</h2>
                 </div>
                 <div className="menu" onClick={()=>setActive(!isActive)}>
                     <div className="bar1"></div>

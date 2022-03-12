@@ -4,8 +4,8 @@ import Topbar from '../components/Topbar';
 const Home = () => {
     return (
         <div className='home'>
-            <Topbar/>
-            <div className="homeContent">
+            <Topbar title="Présentation"/>
+            <div className="content">
                 <p>Hello home</p>
             </div>
         </div>

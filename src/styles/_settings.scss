@@ -20,24 +20,3 @@ body{
     color: $text-color1;
     background-color: rgb(36, 35, 35);
 }
-
-.homeContent, .cvContent, .contactContent, .projectsContent{
-    position: absolute;
-    top: 11%;
-    
-    width: 99%;
-    box-shadow: 0 0 0 1px $border-color;
-    background: rgb(21, 15, 66);
-    min-height: $min-height;
-    
-    // Si la page est en dessous de 1000px, le display change
-    @media screen and (max-width: 1000px) {
-        top: 8% !important;
-        width: 98%;
-    }
-
-    @media screen and (max-width: 650px) {
-        top: 8% !important;
-        width: 97%;
-    }
-}

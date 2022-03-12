@@ -4,8 +4,8 @@ import Topbar from '../components/Topbar';
 const Contact = () => {
     return (
         <div className='contact'>
-            <Topbar />
-            <div className="contactContent">
+            <Topbar title="Me contacter" />
+            <div className="content">
                 <p>Me contacter</p>
             </div>
         </div>

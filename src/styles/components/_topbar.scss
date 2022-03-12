@@ -10,6 +10,8 @@
 
     .id {
         position: relative;
+        text-decoration: none;
+
         .idContent {
             display: flex;
             img {
@@ -109,10 +111,10 @@
 .menu-active {
     display: none;
     @media screen and (max-width: 650px) {
-        
         position: fixed;
         display: flex;
-        top: 8%;
+        top: 75px;
+        box-shadow: 0 0 0 1px $border-color;
         width: 97%;
         z-index: 1;
         background-color: rgb(31, 31, 31);
@@ -120,7 +122,7 @@
         .active {
             color: rgb(129, 129, 129);
         }
-        ul{
+        ul {
             width: 80%;
         }
 
