@@ -76,7 +76,9 @@
     @media screen and (max-width: 650px) {
         position: fixed;
         z-index: 1;
-        width: 97%;
+        width: 100%;
+        left: 0;
+        top:0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -113,9 +115,10 @@
     @media screen and (max-width: 650px) {
         position: fixed;
         display: flex;
-        top: 75px;
+        top: 69px;
+        left: 0;
         box-shadow: 0 0 0 1px $border-color;
-        width: 97%;
+        width: 100%;
         z-index: 1;
         background-color: rgb(31, 31, 31);
 
@@ -123,13 +126,18 @@
             color: rgb(129, 129, 129);
         }
         ul {
-            width: 80%;
+            padding: 0;
+            margin: 0;
+            width: 100%;
         }
 
         li {
             border: 1px white solid;
             width: 100%;
             padding: 15px;
+            i{
+                margin-left: 15px;
+            }
             span {
                 margin-left: 0.5rem;
             }

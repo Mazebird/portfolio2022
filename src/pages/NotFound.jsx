@@ -3,10 +3,16 @@ import Topbar from '../components/Topbar';
 
 const NotFound = () => {
     return (
-        <div className='404'>
+        <div className='notFound'>
             <Topbar title="Menu"/>
             <div className="content">
-                <p>Erreur 404</p>
+                <div className="icon">
+                <i class="fa-solid fa-face-surprise"></i>
+                </div>
+            <div className="notFound-text">
+                <h1>Erreur 404 - </h1><h1>Cette page n'existe pas.</h1>
+            </div>
+                
             </div>
         </div>
     );
