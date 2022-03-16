@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Photo from "../media/me.png";
+
 const Topbar = (prop) => {
 
     const [isActive, setActive] = useState(false);
@@ -9,7 +11,7 @@ const Topbar = (prop) => {
             <div className='topbar'>
                 <div className="id">
                     <div className="idContent">
-                        <img src="/media/me.png" alt="" />
+                        <img src={Photo} alt="" />
 
                     </div>
                     <h1>Anthony Fernandez</h1>

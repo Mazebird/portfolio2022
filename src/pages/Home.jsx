@@ -1,5 +1,7 @@
 import React from 'react';
 import Topbar from '../components/Topbar';
+import Photo from "../media/me.png";
+import CV from "../media/CV-Dev-Anthony-Fernandez.pdf";
 
 const Home = () => {
     return (
@@ -22,10 +24,10 @@ const Home = () => {
                         <p>A bientôt !</p>
                     </div>
 
-                    <a className='downloadCV' href="/media/cv.pdf" target="_blank">Télécharger mon CV</a>
+                    <a className='downloadCV' href={CV} target="_blank">Télécharger mon CV</a>
                 </div>
                 <div className="picture">
-                    <img src="/media/me.png" alt="" />
+                    <img src={Photo} alt="" />
                 </div>
 
             </div>
