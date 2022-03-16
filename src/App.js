@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 const App = () => {
   return (
     //Englobe toute l'Api
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Projets' element={<Projects/>}/>

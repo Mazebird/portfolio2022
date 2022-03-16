@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Topbar from '../components/Topbar';
 import Photo from "../media/me.png";
 import CV from "../media/CV-Dev-Anthony-Fernandez.pdf";
@@ -15,16 +16,18 @@ const Home = () => {
                          je me retrouve maintenant sur le marché du travail.</p>
                         <p>
                             Afin de pouvoir un peu mieux me présenter aux entreprises, j'ai donc décidé de réaliser ce petit portfolio.
-                            Ici, vous pouvez visualiser un résumé de <a href={'./CV'} >mes compétences</a>, mais aussi quelques uns 
-                            des <a href={'./Projets'}>projets</a> réalisés à la fois durant ma formation mais aussi sur mon temps libre.
+                            Ici, vous pouvez visualiser un résumé de <Link to="/CV" >mes compétences</Link>, mais aussi quelques uns 
+                            des <Link to="/Projets" >projets</Link> réalisés à la fois durant ma formation mais aussi sur mon temps libre.
                         </p>
                         <p>
-                            Je recherche principalement dans le département du Finistère (29) mais je reste mobile et accepte également le télétravail.
+                            Et si mon profil vous intéresse, n'hésitez pas à <Link to="/contact" >me contacter</Link>. <br /> Je recherche principalement dans le département du Finistère (29) mais je reste mobile et accepte également le télétravail.
+                       
                         </p>
+                       
                         <p>A bientôt !</p>
                     </div>
 
-                    <a className='downloadCV' href={CV} target="_blank">Télécharger mon CV</a>
+                    <a className='downloadCV' href={CV} target="_blank" rel='noreferrer'>Télécharger mon CV</a>
                 </div>
                 <div className="picture">
                     <img src={Photo} alt="" />
