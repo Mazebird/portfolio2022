@@ -1,5 +1,10 @@
 @import './settings';
-@import './components/content';
-@import './components/topbar';
+
 @import './pages/home';
+@import './pages/contact';
 @import './pages/notFound';
+@import './pages/skills';
+
+@import './components/contact-form';
+@import './components/main';
+@import './components/topbar';

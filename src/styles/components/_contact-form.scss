@@ -1,0 +1,36 @@
+.contact-form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+
+    @media screen and (max-width: 1000px) {
+        width: 90%;
+    }
+
+    .form-title{
+        text-align: center
+    }
+    .state-mail{
+        .success{
+            @include alert(green); 
+        }
+        .error{
+            @include alert(red);
+        }
+        width: 100%;
+    }
+    input, textarea{
+        margin: 5px;
+        background:none;
+        color: white;
+        padding: 5px;
+    }
+    
+    .submit{
+        @include button(5px);
+        width: 50%;
+        align-self: center;
+    }
+}

@@ -1,6 +1,7 @@
 .home{
     .content{
         .presentation{
+            
             margin-top: 50px;
             display: flex;
             flex-direction: column;
@@ -15,12 +16,7 @@
                 padding: 10px;  
             }
             .downloadCV{
-                text-decoration: none;
-                color: black;
-                box-shadow: 0 0 0 1px $border-color;
-                padding: 15px;
-                border-radius: 20px;
-                background-color: rgb(211, 211, 211);
+                @include button(15px);
             }
         }
 

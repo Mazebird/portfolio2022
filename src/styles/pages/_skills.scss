@@ -1,0 +1,42 @@
+.skills {
+    .content {
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .skills-left {
+            width: 60%;
+            .languages {
+                display: flex;
+                justify-content: space-around;
+                padding: 5px;
+                .languages-web {
+                    box-shadow: 0 0 0 1px red;
+                }
+                .languages-app {
+                    box-shadow: 0 0 0 1px bisque;
+                }
+            }
+            .frameworks {
+                display: flex;
+                justify-content: space-around;
+                .frameworks-js {
+                }
+                .frameworks-css {
+                }
+            }
+            .dev-env {
+                display: flex;
+                justify-content: space-around;
+                .dev-env-app {
+                }
+                .dev-env-sys {
+                }
+            }
+        }
+
+        .skills-right{
+            width: 30%;
+        }
+    }
+}

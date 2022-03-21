@@ -1,0 +1,42 @@
+.contact{
+    .content{
+        .contact-text{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            @media screen and (max-width: 1000px) {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column  !important;
+            align-items: center;
+        }
+        .network{
+            ul {
+                display: flex;
+                justify-content: center;
+            }
+            li {
+                font-size: 200%;
+                list-style-type: none;
+                padding-right: 20px;
+                
+            }
+            a {
+                text-decoration: none;
+                color: $text-color2;
+            }
+        }
+    }
+}

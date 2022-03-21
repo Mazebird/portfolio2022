@@ -5,6 +5,7 @@ import CV from './pages/CV';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Projects from './pages/Projects';
+import Skills from './pages/Skills';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Projets' element={<Projects/>}/>
-        <Route path='/CV' element={<CV/>}/>
+        <Route path='/Competences' element={<Skills/>}/>
+        <Route path='/Parcours' element={<CV/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='*' element= {<NotFound/>}/>
         {/* //Version redirigeant vers une page

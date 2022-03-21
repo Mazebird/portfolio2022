@@ -28,8 +28,8 @@
         h1 {
             position: inherit;
             left: 100px;
-            @media screen and (max-width: 1000px) {
-                display: none !important;
+            @media screen and (max-width: $max-width-tablet) {
+                display: none;
             }
         }
     }
@@ -59,21 +59,21 @@
         }
     }
 
-    // Si la page est en dessous de 850px, le display change
+    // Partie responsive
 
-    @media screen and (max-width: 1000px) {
-        width: 98% !important;
+    @media screen and (max-width: $max-width-tablet) {
+        width: 98%;
     }
 
-    @media screen and (max-width: 650px) {
-        display: none !important;
+    @media screen and (max-width: $max-width-mobile) {
+        display: none;
     }
 }
 
 .topbar-min {
     display: none;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: $max-width-mobile) {
         position: fixed;
         z-index: 1;
         width: 100%;
@@ -112,7 +112,7 @@
 
 .menu-active {
     display: none;
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: $max-width-mobile) {
         position: fixed;
         display: flex;
         top: 69px;

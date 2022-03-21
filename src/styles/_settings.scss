@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap");
 
-$font1: 'Work Sans', sans-serif;
-$font-small1: 'Work Sans', sans-serif;
+$font1: "Work Sans", sans-serif;
+$font-small1: "Work Sans", sans-serif;
 
 $text-color1: #7b53a8;
 $text-color2: #f7f0ff;
@@ -10,13 +10,30 @@ $border-color: #535353;
 $border-radius: 5px;
 $min-height: 85vh;
 
-body{
-    // max-width: 1200px;
-    // //Pour aligner les divs verticalement
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
+$max-width-tablet : 1280px;
+$max-width-mobile : 900px;
+
+body {
     font-family: $font1;
     color: $text-color1;
     background-color: rgb(36, 35, 35);
+}
+
+@mixin alert($bg-color){
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px;
+    background-color: $bg-color;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+@mixin button($padding) {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 0 1px $border-color;
+    padding: $padding;
+    border-radius: 20px;
+    background-color: rgb(211, 211, 211);
 }

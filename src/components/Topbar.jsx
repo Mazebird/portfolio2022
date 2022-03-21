@@ -32,9 +32,14 @@ const Topbar = (prop) => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/CV">
+                            <NavLink to="/Competences">
                                 <i className='fa-solid fa-file-lines' />
-                                <span>Mon CV</span></NavLink>
+                                <span>Mes compétences</span></NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/Parcours">
+                                <i className='fa-solid fa-signs-post' />
+                                <span>Mon parcours</span></NavLink>
                         </li>
                         <li>
                             <NavLink to="/contact">
@@ -70,10 +75,16 @@ const Topbar = (prop) => {
                             <span>Mes projets</span>
                         </li>
                     </NavLink>
-                    <NavLink to="/CV">
+                    <NavLink to="/Competences">
                         <li>
                             <i className='fa-solid fa-file-lines' />
-                            <span>Mon CV</span>
+                            <span>Mes compétences</span>
+                        </li>
+                    </NavLink>
+                    <NavLink to="/Parcours">
+                        <li>
+                            <i className='fa-solid fa-signs-post' />
+                            <span>Mon parcours</span>
                         </li>
                     </NavLink>
                     <NavLink to="/contact">

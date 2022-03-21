@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    .page-title{
+        align-self: flex-end;
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+        width: 350px;
+        margin: 0;
+        background-color: rgb(68, 68, 68);
+        color: $text-color2;
+        box-shadow: 0 0 3px -3px black, 0 5px 3px -3px black;
+        border-radius: 0 0 0 500px;
+
+        @media screen and (max-width: $max-width-tablet) {
+            display: none;
+        }
+    }
+
+    .content{
+        margin-top: 70px;
+        @media screen and (max-width: $max-width-tablet) {
+            margin-top: 0;
+        }
+        
+    }
+    position: absolute;
+    top: 95px;
+    
+    width: 99%;
+    box-shadow: 0 0 0 1px $border-color;
+    background: rgb(21, 15, 66);
+    min-height: $min-height;
+    
+    // Si la page est en dessous de 1000px, le display change
+    @media screen and (max-width: $max-width-tablet) {
+        top: 65px;
+        width: 98%;
+    }
+
+    @media screen and (max-width: $max-width-mobile) {
+        top: 69px;
+        left: 0;
+        width: 100%;
+    }
+}
