@@ -1,4 +1,5 @@
 import React from 'react';
+import Languages from '../components/skills/Languages';
 import Topbar from '../components/Topbar';
 
 const Skills = () => {
@@ -10,7 +11,8 @@ const Skills = () => {
                     <h2>Mes compétences</h2>
                 </div>
                 <div className="content">
-                    <div className="skills-left">
+                    <Languages />
+                    {/* <div className="skills-left">
                         <fieldset className="languages">
                             <legend>Langages</legend>
                             <div className="languages-web">
@@ -42,19 +44,19 @@ const Skills = () => {
                     <div className="skills-right">
                         <fieldset className="sgbd">
                             <legend>SGBD</legend>
-                            
-                                <p>Les BDD</p>
-                            
+
+                            <p>Les BDD</p>
+
                         </fieldset>
                         <fieldset className="devops">
                             <legend>Déploiement</legend>
-                                <p>Les skills DevOPS</p>
+                            <p>Les skills DevOPS</p>
                         </fieldset>
                         <fieldset className="soft-skills">
                             <legend>SoftSkills</legend>
-                                <p>Les compétences transverses</p>
+                            <p>Les compétences transverses</p>
                         </fieldset>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
