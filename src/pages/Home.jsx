@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="presentation">
                         <div className="presentation-text">
                             <p>Bonjour ! Je m'appelle <span>Anthony</span> et je suis <span>développeur web</span> junior.</p>
-                            <p>Après une formation de niveau 6 (Bac + 4) de <span>Concepteur Développeur d'Applications</span> à l'<a href='https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/' target="_blank">Eni Ecole Informatique</a>,
+                            <p>Après une formation de niveau 6 (Bac + 4) de <span>Concepteur Développeur d'Applications</span> à l'<a href='https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/' target="_blank" rel="noreferrer">Eni Ecole Informatique</a>,
                                 je me retrouve maintenant sur le marché du travail.</p>
                             <p>
                                 Afin de pouvoir un peu mieux me présenter aux entreprises, j'ai donc décidé de réaliser ce petit portfolio.

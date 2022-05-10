@@ -19,6 +19,12 @@ body {
     background-color: rgb(36, 35, 35);
 }
 
+.content{
+    @media screen and (max-width: $max-width-mobile) {
+        margin: 10px;
+}
+}
+
 @mixin alert($bg-color){
     border-radius: 5px;
     box-shadow: 0 0 0 1px;
