@@ -10,7 +10,7 @@ import Skills from './pages/Skills';
 const App = () => {
   return (
     //Englobe toute l'Api
-    <BrowserRouter basename="/Portfolio">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Projets' element={<Projects/>}/>
