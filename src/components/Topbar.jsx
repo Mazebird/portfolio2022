@@ -26,7 +26,7 @@ const Topbar = (prop) => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/projets">
+                            <NavLink to="/Projets">
                                 <i className='fa-solid fa-code-branch' />
                                 <span>Mes projets</span>
                             </NavLink>
@@ -42,7 +42,7 @@ const Topbar = (prop) => {
                                 <span>Mon parcours</span></NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contact">
+                            <NavLink to="/Contact">
                                 <i className='fa-solid fa-paper-plane' />
                                 <span>Me contacter</span>
                             </NavLink>
@@ -69,7 +69,7 @@ const Topbar = (prop) => {
                             <span>Présentation</span>
                         </li>
                     </NavLink>
-                    <NavLink to="/projets">
+                    <NavLink to="/Projets">
                         <li>
                             <i className='fa-solid fa-code-branch' />
                             <span>Mes projets</span>
@@ -87,7 +87,7 @@ const Topbar = (prop) => {
                             <span>Mon parcours</span>
                         </li>
                     </NavLink>
-                    <NavLink to="/contact">
+                    <NavLink to="/Contact">
                         <li>
                             <i className='fa-solid fa-paper-plane' />
                             <span>Me contacter</span>

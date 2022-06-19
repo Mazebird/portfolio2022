@@ -24,7 +24,7 @@ const Home = () => {
                                 des <Link to="/Projets" >projets</Link> réalisés à la fois durant ma formation mais aussi sur mon temps libre.
                             </p>
                             <p>
-                                Et si mon profil vous intéresse, n'hésitez pas à <Link to="/contact" >me contacter</Link>. <br /> Je recherche principalement dans le département du Finistère (29) mais je reste mobile et accepte également le télétravail.
+                                Et si mon profil vous intéresse, n'hésitez pas à <Link to="/Contact" >me contacter</Link>. <br /> Je recherche principalement dans le département du Finistère (29) mais je reste mobile et accepte également le télétravail.
 
                             </p>
 
