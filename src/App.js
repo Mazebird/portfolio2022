@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Contact from './pages/Contact';
 import CV from './pages/CV';
 import Home from './pages/Home';
@@ -10,7 +10,7 @@ import Skills from './pages/Skills';
 const App = () => {
   return (
     //Englobe toute l'Api
-    <BrowserRouter basename="/Portfolio">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Projets' element={<Projects/>}/>
