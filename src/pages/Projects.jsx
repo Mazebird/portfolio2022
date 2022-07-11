@@ -15,7 +15,7 @@ const Projects = () => {
                         <div className="picture">
                             <img src={WIP} alt="" />
                         </div>
-                        <h1>Session en construction</h1>
+                        <h1>En construction</h1>
                     </div>
                 </div>
             </div>
