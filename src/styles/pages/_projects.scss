@@ -3,6 +3,8 @@
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
+        min-height: 80vh;
+        align-items: center;
 
         @media screen and (max-width: $max-width-tablet) {
             flex-direction: column;
