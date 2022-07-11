@@ -1,5 +1,6 @@
 import React from 'react';
 import Topbar from '../components/Topbar';
+import WIP from "../media/wip.png";
 
 const Projects = () => {
     return (
@@ -10,7 +11,12 @@ const Projects = () => {
                     <h2>Mes projets</h2>
                 </div>
                 <div className="content">
-                    <p>Ajouter quelques Projets en format Card (BlackJack, Morpion, Messenger, ToDoList...</p>
+                    <div className='project-container'>
+                        <div className="picture">
+                            <img src={WIP} alt="" />
+                        </div>
+                        <h1>Session en construction</h1>
+                    </div>
                 </div>
             </div>
         </div>

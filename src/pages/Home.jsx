@@ -20,7 +20,7 @@ const Home = () => {
                                 je me retrouve maintenant sur le marché du travail.</p>
                             <p>
                                 Afin de pouvoir un peu mieux me présenter aux entreprises, j'ai donc décidé de réaliser ce petit portfolio.
-                                Ici, vous pouvez visualiser un résumé de <Link to="/Competences" >mes compétences</Link>, mais aussi quelques uns
+                                Ici, vous pouvez visualiser un résumé de <Link to="/Parcours" >mon parcours</Link>, mais aussi quelques uns
                                 des <Link to="/Projets" >projets</Link> réalisés à la fois durant ma formation mais aussi sur mon temps libre.
                             </p>
                             <p>

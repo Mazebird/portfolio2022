@@ -31,11 +31,11 @@ const Topbar = (prop) => {
                                 <span>Mes projets</span>
                             </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/Competences">
                                 <i className='fa-solid fa-file-lines' />
                                 <span>Mes compétences</span></NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to="/Parcours">
                                 <i className='fa-solid fa-signs-post' />
@@ -75,12 +75,12 @@ const Topbar = (prop) => {
                             <span>Mes projets</span>
                         </li>
                     </NavLink>
-                    <NavLink to="/Competences">
+                    {/* <NavLink to="/Competences">
                         <li>
                             <i className='fa-solid fa-file-lines' />
                             <span>Mes compétences</span>
                         </li>
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/Parcours">
                         <li>
                             <i className='fa-solid fa-signs-post' />

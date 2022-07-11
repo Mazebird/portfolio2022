@@ -1,5 +1,9 @@
 .contact{
     .content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 80vh;
         .contact-text{
             text-align: center;
             display: flex;
@@ -13,9 +17,7 @@
             }
         }
         
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        
         
 
         @media screen and (max-width: 1000px) {
